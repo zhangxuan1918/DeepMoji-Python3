@@ -33,7 +33,7 @@ source env/bin/activate
 (env) pip3 install -e .
 ```
 This will install the following dependencies:
-* [Keras](https://github.com/fchollet/keras) (the library was tested on version 2.0.5 but anything above 2.0.0 should work)
+* [Keras](https://github.com/fchollet/keras) (the library was tested on version 2.0.7 but anything above 2.0.0 should work)
 * [scikit-learn](https://github.com/scikit-learn/scikit-learn)
 * [h5py](https://github.com/h5py/h5py)
 * [text-unidecode](https://github.com/kmike/text-unidecode)
@@ -61,7 +61,7 @@ nosetests -v -a '!slow'
 ```
 
 ## Disclaimer 
-This code has been tested to work with Python 2.7 on an Ubuntu 16.04 machine. It has not been optimized for efficiency, but should be fast enough for most purposes. We do not give any guarantees that there are no bugs - use the code on your own responsibility!
+This code has been tested to work with Python 3.6 on an Macbook Pro machine. It has not been optimized for efficiency, but should be fast enough for most purposes. We do not give any guarantees that there are no bugs - use the code on your own responsibility!
 
 ## Contributions
 We welcome pull requests if you feel like something could be improved. You can also greatly help us by telling us how you felt when writing your most recent tweets. Just click [here](http://deepmoji.mit.edu/contribute/) to contribute.
