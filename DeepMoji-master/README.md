@@ -28,7 +28,7 @@ virtualenv --python=python3 env
 
 We assume that you're using [Python 3.6](https://www.python.org/downloads/) with [pip](https://pip.pypa.io/en/stable/installing/) installed. As a backend you need to install either [Theano (version 0.9+)](http://deeplearning.net/software/theano/install.html) or [Tensorflow (version 1.8+)](https://www.tensorflow.org/install/). Inside the root directory, run the following to install the remaining dependencies:
   
-```
+```bash
 source env/bin/activate
 (env) pip3 install -e .
 ```
@@ -44,7 +44,7 @@ Ensure that Keras uses your chosen backend. You can find the instructions [here]
 Run the included script, which downloads the pretrained DeepMoji weights (~85MB) from [here](https://www.dropbox.com/s/xqarafsl6a8f9ny/deepmoji_weights.hdf5?dl=0) and places them in the model/ directory:
 
 ```bash
-python3 scripts/download_weights.py
+(env) python3 scripts/download_weights.py
 ```
 
 ## Testing
